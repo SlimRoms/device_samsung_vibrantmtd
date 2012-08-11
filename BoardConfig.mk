@@ -18,7 +18,9 @@
 #
 
 # Kernel Config
-TARGET_KERNEL_CONFIG := cyanogenmod_vibrantmtd_defconfig
+#TARGET_KERNEL_CONFIG := cyanogenmod_vibrantmtd_defconfig
+#Prebuilt Kernel
+TARGET_PREBUILT_KERNEL := device/samsung/vibrantmtd/zImage
 
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/vibrantmtd/recovery/recovery_keys.c

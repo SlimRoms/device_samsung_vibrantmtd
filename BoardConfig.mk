@@ -25,10 +25,6 @@ TARGET_PREBUILT_KERNEL := device/samsung/vibrantmtd/zImage
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/vibrantmtd/recovery/recovery_keys.c
 
-# Boot Animation
-TARGET_BOOTANIMATION_PRELOAD := true
-TARGET_BOOTANIMATION_TEXTURE_CACHE := false
-
 TARGET_OTA_ASSERT_DEVICE := vibrant,vibrantmtd,SGH-T959
 
 # Import the aries-common BoardConfigCommon.mk

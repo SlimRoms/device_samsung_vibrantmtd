@@ -17,10 +17,11 @@
 # Product-specific compile-time definitions.
 #
 
-# Kernel Config
-#TARGET_KERNEL_CONFIG := cyanogenmod_vibrantmtd_defconfig
-#Prebuilt Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/vibrantmtd/zImage
+# Inline kernel building
+TARGET_KERNEL_SOURCE := kernel/samsung/samsung-kernel-aries
+
+
+TARGET_KERNEL_CONFIG := semaphore_vibrant_defconfig
 
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/vibrantmtd/recovery/recovery_keys.c

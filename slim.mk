@@ -15,14 +15,14 @@ $(call inherit-product, vendor/slim/config/common_sgs.mk)
 
 #copy kernel and modules
 PRODUCT_COPY_FILES += \
-	device/samsung/vibrantmtd/prebuilt/kernel/boot.img:system/slimkernel/boot.img \
-	device/samsung/vibrantmtd/prebuilt/kernel/boot.img:kernel \
         device/samsung/aries-common/recovery.fstab:ramdisk.img \
         device/samsung/aries-common/recovery.fstab:recovery/root/etc/recovery.fstab \
-	device/samsung/vibrantmtd/prebuilt/kernel/system/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-	device/samsung/vibrantmtd/prebuilt/kernel/system/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
-	device/samsung/vibrantmtd/prebuilt/kernel/system/lib/modules/mls_utf8.ko:system/lib/modules/mls_utf8.ko \
-	device/samsung/vibrantmtd/prebuilt/kernel/system/lib/modules/nls_utf8.ko:system/lib/modules/nls_utf8.ko
+#	device/samsung/vibrantmtd/prebuilt/kernel/boot.img:system/slimkernel/boot.img \
+#	device/samsung/vibrantmtd/prebuilt/kernel/boot.img:kernel \
+#	device/samsung/vibrantmtd/prebuilt/kernel/system/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
+#	device/samsung/vibrantmtd/prebuilt/kernel/system/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
+#	device/samsung/vibrantmtd/prebuilt/kernel/system/lib/modules/mls_utf8.ko:system/lib/modules/mls_utf8.ko \
+#	device/samsung/vibrantmtd/prebuilt/kernel/system/lib/modules/nls_utf8.ko:system/lib/modules/nls_utf8.ko
 
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
@@ -32,7 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #copy 00check
 PRODUCT_COPY_FILES += \
-	device/samsung/galaxysmtd/prebuilt/kernel/system/etc/init.d/00check:system/etc/init.d/00check
+	vendor/slim/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check
 
 
 ## Device identifier. This must come after all inclusions

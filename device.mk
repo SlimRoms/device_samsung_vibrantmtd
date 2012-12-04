@@ -37,3 +37,6 @@ $(call inherit-product, device/samsung/aries-common/device_base.mk)
 
 # Proprietary
 $(call inherit-product-if-exists, vendor/samsung/vibrantmtd/vibrantmtd-vendor.mk)
+
+#Call WLAN Module
+$(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4329/device-bcm.mk)

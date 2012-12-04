@@ -12,19 +12,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+#DEVICE_PACKAGE_OVERLAYS := device/samsung/vibrantmtd/overlay
+
 # These are the hardware-specific configuration files
 PRODUCT_COPY_FILES := \
-	device/samsung/vibrantmtd/etc/asound.conf:system/etc/asound.conf
+    device/samsung/vibrantmtd/etc/asound.conf:system/etc/asound.conf
 
 # Init files
 PRODUCT_COPY_FILES += \
-	device/samsung/vibrantmtd/ramdisk/init.target.rc:root/init.target.rc \
-	device/samsung/vibrantmtd/ramdisk/init.aries.gps.rc:root/init.aries.gps.rc
+    device/samsung/vibrantmtd/ramdisk/init.target.rc:root/init.target.rc \
+    device/samsung/vibrantmtd/ramdisk/init.aries.gps.rc:root/init.aries.gps.rc
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
-	device/samsung/vibrantmtd/keys/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl \
-	device/samsung/vibrantmtd/keys/cypress-touchkey.kl:system/usr/keylayout/cypress-touchkey.kl
+    device/samsung/vibrantmtd/keys/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl \
+    device/samsung/vibrantmtd/keys/cypress-touchkey.kl:system/usr/keylayout/cypress-touchkey.kl
 
 # GPS
 PRODUCT_PACKAGES += \

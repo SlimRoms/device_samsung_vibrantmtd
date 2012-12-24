@@ -5,6 +5,11 @@
     "branch": "jb4.2"
   },
   {
+    "repository": "SlimRoms/hardware_samsung",
+    "target_path": "hardware/samsung",
+    "branch": "jb4.2"
+  },
+  {
     "repository": "SlimRoms/device_samsung_aries-common",
     "target_path": "device/samsung/aries-common",
     "branch": "jb4.2"

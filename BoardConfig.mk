@@ -22,6 +22,7 @@ TARGET_KERNEL_SOURCE := kernel/samsung/samsung-kernel-aries
 
 
 TARGET_KERNEL_CONFIG := semaphore_vibrant_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro/bin/arm-linux-gnueabihf-
 
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/vibrantmtd/recovery/recovery_keys.c

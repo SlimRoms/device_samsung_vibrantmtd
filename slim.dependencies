@@ -23,5 +23,10 @@
     "repository": "stratosk/ics-ramdisk",
     "target_path": "kernel/samsung/ics-ramdisk",
     "branch": "jb-4.2.1"
+  },
+  {
+    "repository": "mnm9994u/prebuilt",
+    "target_path": "prebuilt",
+    "branch": "master"
   }
 ]

@@ -31,7 +31,7 @@ BOARD_USES_FROYO_RILCLIENT := true
 TARGET_OTA_ASSERT_DEVICE := vibrant,vibrantmtd,SGH-T959
 
 #Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/captivatemtd/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/vibrantmtd/bluetooth
 
 # Import the aries-common BoardConfigCommon.mk
 include device/samsung/aries-common/BoardConfigCommon.mk

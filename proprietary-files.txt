@@ -1,7 +1,8 @@
 # GPS
 etc/gps.conf
 vendor/bin/gpsd
-vendor/lib/libsamsung_hwlegacy.so
+vendor/etc/gps.xml
+vendor/lib/hw/gps.aries.so
 lib/libclientgps.so
 
 # RIL
@@ -14,3 +15,4 @@ bin/rild
 vendor/lib/libsensor_yamaha_test.so
 vendor/bin/orientationd
 vendor/bin/geomagneticd
+vendor/bin/Certification.cer

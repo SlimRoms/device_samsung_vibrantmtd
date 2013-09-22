@@ -19,6 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/samsung/vibrantmtd/device.mk)
 
 # Call the full product config
+$(call inherit-product, device/samsung/vibrantmtd/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk)
 
 # Vibrant uses high-density artwork where available
